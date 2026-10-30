@@ -1,0 +1,6 @@
+{
+  "name": "SENA Inducción y Apropiación",
+  "description": "Plataforma interactiva para la inducción de aprendices del SENA: identidad institucional, derechos, deberes, simulador de casos, evaluación de apropiación y certificación digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

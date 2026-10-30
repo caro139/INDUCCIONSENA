@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Aprendiz": {
+      "title": "Aprendiz",
+      "description": "Datos del aprendiz",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "nombre": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "documento": { "type": "string" }
+      },
+      "required": ["uid", "nombre", "email"]
+    }
+  },
+  "firestore": {
+    "/aprendices/{uid}": {
+      "schema": "Aprendiz",
+      "description": "Perfil del aprendiz"
+    }
+  }
+}
